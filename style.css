@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color{
     color: rgb(45, 106, 134);
 }
-section{
+.flexible-container{
     display: flex;
     margin: 100px;
 }
@@ -35,4 +38,28 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experince-item{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgb(185, 178, 178);
+}
+#strac-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, rgb(240, 69, 69));
+    border-image-slice: 1;
+}
+#web-dev{    
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(1, 16, 223), rgb(126, 99, 241));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
